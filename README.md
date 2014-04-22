@@ -1,4 +1,4 @@
-#Vaprobash xdebub screem override
+#Vaprobash xdebub scream override
 
 Created an override file for the vaprobash set up so that it sets the xdebug scream value to 0, to help with a laravel install etc.
 
@@ -36,3 +36,5 @@ xdebug.scream =0
 ```
 
 i coudl simply download the scripts file and alter the php.sh file, but then the script fiels will become out of date etc if linked locally. Anyway its  asuggestion.
+
+Remember thought if your using laravel from within vaprobash then you might need to run this local script prior to the laravel install.
